@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAMUN'25 - Amity International School Model UN</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="loading-text">JAMUN'25</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-text">
+                    <span class="logo-main">JAMUN</span>
+                    <span class="logo-year">'25</span>
+                </div>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#committees" class="nav-link">Committees</a></li>
+                <li><a href="#allotments" class="nav-link">Allotments</a></li>
+                <li><a href="#secretariat" class="nav-link">Secretariat</a></li>
+            </ul>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+            <div class="particles" id="particles"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-text">November 11th and 12th</span>
+            </div>
+            
+            <h1 class="hero-title">
+                <span class="school-name">Amity International School,</span>
+                <span class="location">Pushp Vihar</span>
+                <span class="event-name">JAMUN'25</span>
+            </h1>
+            
+            <p class="hero-subtitle">
+                Fostering Global Diplomacy Through Youth Leadership
+            </p>
+            
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="9">0</span>
+                    <span class="stat-label">Committees</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="400+">0</span>
+                    <span class="stat-label">Delegates</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="2">0</span>
+                    <span class="stat-label">Days</span>
+                </div>
+            </div>
+            
+            <div class="hero-buttons">
+                <a href="committees.html" class="btn-primary">
+                    <span>Explore Committees</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- Committees Section -->
+    <section id="committees" class="committees">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Committees</span>
+                <h2 class="section-title">United Nations Bodies</h2>
+                <p class="section-subtitle">
+                    Explore our carefully curated selection of UN committees, each addressing 
+                    critical global challenges and contemporary issues.
+                </p>
+            </div>
+            
+            <div class="committees-grid">
+                <a href="committees.html#unga" class="committee-card" data-committee="unga">
+                    <div class="committee-header">
+                        <div class="committee-logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/UN_emblem_blue.svg/1200px-UN_emblem_blue.svg.png" alt="UNGA">
+                        </div>
+                        <div class="committee-info">
+                            <h3>UNGA</h3>
+                            <p class="committee-full">United Nations General Assembly</p>
+                        </div>
+                    </div>
+                    <div class="committee-topic">
+                        <h4>Addressing the Global Rise in Cyberbullying & Online Harassment</h4>
+                    </div>
+                    <div class="committee-footer">
+                        <span class="committee-type">General Assembly</span>
+                        <div class="committee-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="committees.html#unep" class="committee-card" data-committee="unep">
+                    <div class="committee-header">
+                        <div class="committee-logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/UN_emblem_blue.svg/1200px-UN_emblem_blue.svg.png" alt="UNEP">
+                        </div>
+                        <div class="committee-info">
+                            <h3>UNEP</h3>
+                            <p class="committee-full">United Nations Environment Programme</p>
+                        </div>
+                    </div>
+                    <div class="committee-topic">
+                        <h4>Tackling the Global Impact of Fast Fashion on Climate & Waste Generation</h4>
+                    </div>
+                    <div class="committee-footer">
+                        <span class="committee-type">Environment</span>
+                        <div class="committee-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="committees.html#unsc" class="committee-card" data-committee="unsc">
+                    <div class="committee-header">
+                        <div class="committee-logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/UN_emblem_blue.svg/1200px-UN_emblem_blue.svg.png" alt="UNSC">
+                        </div>
+                        <div class="committee-info">
+                            <h3>UNSC</h3>
+                            <p class="committee-full">United Nations Security Council</p>
+                        </div>
+                    </div>
+                    <div class="committee-topic">
+                        <h4>Deliberation on Strengthening Peace Dialogues and Conflict-Prevention Mechanisms</h4>
+                    </div>
+                    <div class="committee-footer">
+                        <span class="committee-type">Security Council</span>
+                        <div class="committee-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="committees.html#unesco" class="committee-card" data-committee="unesco">
+                    <div class="committee-header">
+                        <div class="committee-logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/UN_emblem_blue.svg/1200px-UN_emblem_blue.svg.png" alt="UNESCO">
+                        </div>
+                        <div class="committee-info">
+                            <h3>UNESCO</h3>
+                            <p class="committee-full">United Nations Educational, Scientific and Cultural Organization</p>
+                        </div>
+                    </div>
+                    <div class="committee-topic">
+                        <h4>Protection and Restoration of Heritage Sites in Conflict Zones</h4>
+                    </div>
+                    <div class="committee-footer">
+                        <span class="committee-type">Cultural</span>
+                        <div class="committee-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="committees.html#copuos" class="committee-card" data-committee="copuos">
+                    <div class="committee-header">
+                        <div class="committee-logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/UN_emblem_blue.svg/1200px-UN_emblem_blue.svg.png" alt="COPUOS">
+                        </div>
+                        <div class="committee-info">
+                            <h3>COPUOS</h3>
+                            <p class="committee-full">Committee on the Peaceful Uses of Outer Space</p>
+                        </div>
+                    </div>
+                    <div class="committee-topic">
+                        <h4>Preventing Space Pollution and Managing Space Debris</h4>
+                    </div>
+                    <div class="committee-footer">
+                        <span class="committee-type">Space Affairs</span>
+                        <div class="committee-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="committees.html#aippm" class="committee-card" data-committee="aippm">
+                    <div class="committee-header">
+                        <div class="committee-logo">
+                            <img src="images\aippm-logo.png" alt="AIPPM" style="background-color: #FF9933; border-radius: 50%; padding: 10px;">
+                        </div>
+                        <div class="committee-info">
+                            <h3>AIPPM</h3>
+                            <p class="committee-full">All India Political Parties Meet</p>
+                        </div>
+                    </div>
+                    <div class="committee-topic">
+                        <h4>Reforming the Indian Education System with Emphasis on Student Well-being</h4>
+                    </div>
+                    <div class="committee-footer">
+                        <span class="committee-type">Indian Politics</span>
+                        <div class="committee-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="committees.html#uncsw" class="committee-card" data-committee="uncsw">
+                    <div class="committee-header">
+                        <div class="committee-logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/UN_emblem_blue.svg/1200px-UN_emblem_blue.svg.png" alt="UNCSW">
+                        </div>
+                        <div class="committee-info">
+                            <h3>UNCSW</h3>
+                            <p class="committee-full">UN Commission on the Status of Women</p>
+                        </div>
+                    </div>
+                    <div class="committee-topic">
+                        <h4>Promoting Equal Opportunities for Women in the Workforce</h4>
+                    </div>
+                    <div class="committee-footer">
+                        <span class="committee-type">Women's Rights</span>
+                        <div class="committee-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="committees.html#ip" class="committee-card" data-committee="ip">
+                    <div class="committee-header">
+                        <div class="committee-logo">
+                            <img src="images\ip-logo.png" alt="IP">
+                        </div>
+                        <div class="committee-info">
+                            <h3>IP</h3>
+                            <p class="committee-full">International Press</p>
+                        </div>
+                    </div>
+                    
+                    <div class="committee-topic">
+                        <h4>Covering Global Diplomatic Events and Proceedings</h4>
+                    </div>
+                    <div class="committee-footer">
+                        <span class="committee-type">Media</span>
+                        <div class="committee-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="committees.html#sabha" class="committee-card" data-committee="sabha">
+                    <div class="committee-header">
+                        <div class="committee-logo">
+                            <img src="images\sabha-logo.png" alt="SABHA" style="border-radius: 50%;">
+                        </div>
+                        <div class="committee-info">
+                            <h3>SABHA OF THE DIVINE</h3>
+                            <p class="committee-full">Mythological Committee</p>
+                        </div>
+                    </div>
+                    <div class="committee-topic">
+                        <h4>Restoring Balance Between Nature and Civilization</h4>
+                    </div>
+                    <div class="committee-footer">
+                        <span class="committee-type">Mythological</span>
+                        <div class="committee-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Allotments Section -->
+    <section id="allotments" class="allotments-main">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Allotments</span>
+                <h2 class="section-title">Country Allocations</h2>
+                <p class="section-subtitle">
+                    View the complete list of country allotments for all committees in JAMUN'25
+                </p>
+            </div>
+            
+            <div class="allotments-content">
+                <div class="allotments-embed">
+                    <iframe src="https://docs.google.com/spreadsheets/d/1lV8a6abxQQSY5MS0uSfD_HcaRWqodVcSg4sG7pfAmyI/edit?gid=1496965899#gid=1496965899" 
+                            width="100%" 
+                            height="600" 
+                            frameborder="0" 
+                            allowfullscreen="true" 
+                            mozallowfullscreen="true" 
+                            webkitallowfullscreen="true">
+                    </iframe>
+                </div>
+                
+                <div class="allotments-note">
+                    <p><i class="fas fa-info-circle"></i> Use the spreadsheet above to view detailed country allotments for each committee. You can filter by committee or search for specific countries.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secretariat Section -->
+    <section id="secretariat" class="secretariat">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">The Secretariat</span>
+                <h2 class="section-title">Leadership Team</h2>
+                <p class="section-subtitle">
+                    Meet the dedicated team of experienced leaders guiding JAMUN'25 
+                    towards diplomatic excellence and academic achievement.
+                </p>
+            </div>
+            
+            <div class="secretariat-grid">
+                <div class="secretariat-member featured">
+                    <div class="member-image">
+                        <img src="photos/UNSC/Maheer Singh_Chair_UNSC.jpg" alt="Maheer Singh">
+                    </div>
+                    <div class="member-info">
+                        <h3>Maheer Singh</h3>
+                        <p class="member-position">Secretary General</p>
+                        <p class="member-description">Leading JAMUN'25 with vision and diplomatic expertise.</p>
+                    </div>
+                </div>
+
+                <div class="secretariat-member">
+                    <div class="member-image">
+                        <img src="https://via.placeholder.com/300x300?text=Head+of+Logistics" alt="Jia Chabbra">
+                    </div>
+                    <div class="member-info">
+                        <h3>Jia Chabbra</h3>
+                        <p class="member-position">Head of Logistics</p>
+                        <p class="member-description">Ensuring seamless operations and exceptional delegate experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <div class="logo-text">
+                            <span class="logo-main">JAMUN</span>
+                            <span class="logo-year">'25</span>
+                        </div>
+                    </div>
+                    <p>Fostering Global Diplomacy Through Youth Leadership</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 JAMUN. All rights reserved. | Amity International School, Pushp Vihar</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
